@@ -67,7 +67,7 @@
                 },
                 "autoload": {
                     "psr-4": {
-                        "Zend\\Stdlib\\": "src/"
+                        "Doctrine\\Common\\": "lib/Doctrine/Common"
                     }
                 }
             }

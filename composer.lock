@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "effafc324c9bc9013babbdbcc3ffbcf0",
+    "content-hash": "280abaf826532178f0cedfddd6492838",
     "packages": [
         {
             "name": "acbjtechnology/doctrine-reflection-12",
@@ -17,7 +17,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Zend\\Stdlib\\": "src/"
+                    "Doctrine\\Common\\": "lib/Doctrine/Common"
                 }
             }
         },
