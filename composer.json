@@ -9,7 +9,7 @@
         "orm",
         "odm"
     ],
-    "homepage": "https://github.com/acbjtechnology/doctrine-reflection-13",
+    "homepage": "https://gitlab.bizjournals.com/bizjournals/doctrine/doctrine-reflection-13",
     "license": "MIT",
     "authors": [
         {"name": "Guilherme Blanco", "email": "guilhermeblanco@gmail.com"},
@@ -25,7 +25,7 @@
         "doctrine/cache": "^1.0",
         "doctrine/collections": "^1.0",
         "doctrine/event-manager": "^1.0",
-        "acbjtechnology/doctrine-reflection-12": "@dev"
+        "acbjtechnology/doctrine-reflection-12": "dev-main"
     },
     "require-dev": {
         "phpstan/phpstan": "^0.11",
@@ -36,6 +36,8 @@
     "conflict": {
         "doctrine/common": "<2.10@dev"
     },
+    "minimum-stability": "dev",
+    "prefer-stable": false,
     "autoload": {
         "psr-4": {
             "Doctrine\\Common\\": "lib/Doctrine/Common",
@@ -61,7 +63,7 @@
                 "name": "acbjtechnology/doctrine-reflection-12",
                 "version":"dev-main",
                 "source": {
-                    "url": "https://github.com/acbjtechnology/doctrine-reflection-12.git",
+                    "url": "git@gitlab.bizjournals.com:bizjournals/doctrine/doctrine-reflection-12.git",
                     "type": "git",
                     "reference":"main"
                 },

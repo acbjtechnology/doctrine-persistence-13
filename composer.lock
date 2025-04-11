@@ -4,14 +4,14 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "280abaf826532178f0cedfddd6492838",
+    "content-hash": "02cc6ac3b54d72eb677064307bca272c",
     "packages": [
         {
             "name": "acbjtechnology/doctrine-reflection-12",
             "version": "dev-main",
             "source": {
                 "type": "git",
-                "url": "https://github.com/acbjtechnology/doctrine-reflection-12.git",
+                "url": "git@gitlab.bizjournals.com:bizjournals/doctrine/doctrine-reflection-12.git",
                 "reference": "main"
             },
             "type": "library",
@@ -5065,10 +5065,8 @@
         }
     ],
     "aliases": [],
-    "minimum-stability": "stable",
-    "stability-flags": {
-        "acbjtechnology/doctrine-reflection-12": 20
-    },
+    "minimum-stability": "dev",
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
